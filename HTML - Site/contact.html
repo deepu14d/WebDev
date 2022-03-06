@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <p>E-mail: - mymail@gmail.com</p>
+    <p>Phone number: - 97261718317281</p>
+  </head>
+  <body>
+    <hr size="3" />
+    <form action="index.html" method="post">
+      <!--We can use action="mailto:[emailid]" with enctype="text/plain" to send form data to mail-->
+      <label>Your Name: </label>
+      <input type="text" name="Name" /> <br />
+      <br />
+      <label>Email: </label>
+      <input type="email" name="E-Mail" /> <br />
+      <br />
+      <label>Password: </label>
+      <input type="password" name="Password" /> <br />
+      <br />
+      <label>Do you want to get new offers: </label>
+      <input type="checkbox" name="Offer" /> <br /><br />
+      <label>How many mails per day? </label>
+      <input type="range" /> <br /><br />
+      <label>Your message: </label>
+      <textarea name="name" rows="10" cols="30"> </textarea>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
